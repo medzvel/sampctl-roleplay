@@ -1,0 +1,12 @@
+{
+	"user": "J0shES",
+	"repo": "sampctl-roleplay",
+	"entry": "gamemodes\\sampctl-roleplay.pwn",
+	"output": "gamemodes\\sampctl-roleplay.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	],
+	"runtime": {
+		"mode": "y_testing"
+	}
+}
