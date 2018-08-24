@@ -3,7 +3,7 @@
 main() {}
 
 public OnGameModeInit() {
-    return 1;
+return 1;
 }
 
 strtok(const string[], &index)
