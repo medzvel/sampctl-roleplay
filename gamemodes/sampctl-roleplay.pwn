@@ -1,5 +1,5 @@
 #include <a_samp>
- 
+#pragma tabsize 0 
 main() {}
 
 public OnGameModeInit() {
