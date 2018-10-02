@@ -1,5 +1,11 @@
 #include <a_samp>
 #pragma tabsize 0 
+
+#if !defined isnull
+    #define isnull(%1) \
+                ((!(%1[0])) || (((%1[0]) == '\1') && (!(%1[1]))))
+#endif
+
 main() {}
 
 public OnGameModeInit() {
