@@ -47,3 +47,20 @@ strtok(const string[], &index)
     result[index - offset] = EOS;
     return result;
 }
+// that function can get player id by player name
+GetPlayerID(name[])
+{
+  	for(new i = 0; i <= GetPlayerPoolSize(); i++)
+  	{
+    	if(IsPlayerConnected(i))
+    	{
+      		new playername[MAX_PLAYER_NAME+1];
+      		GetPlayerName(i, playername, sizeof playername);
+      		if(strcmp(playername, name, true, strlen(name)) == 0)
+      		{
+        		return i;
+      		}
+    	}
+  	}
+  	return INVALID_PLAYER_ID;
+}
