@@ -1,6 +1,6 @@
 # sampctl-roleplay
 
-[![sampctl](https://shields.southcla.ws/badge/sampctl-sampctl--roleplay-2f2f2f.svg?style=for-the-badge)](https://github.com/J0shES/sampctl-roleplay)
+[![sampctl](https://shields.southcla.ws/badge/sampctl-sampctl--roleplay-2f2f2f.svg?style=for-the-badge)](https://github.com/Southclaws/sampctl-roleplay)
 
 <!--
 Short description of your library, why it's useful, some examples, pictures or
@@ -31,7 +31,7 @@ Happy Pawning!
 Simply install to your project:
 
 ```bash
-sampctl package install J0shES/sampctl-roleplay
+sampctl package install Southclaws/sampctl-roleplay
 ```
 
 ## Testing
