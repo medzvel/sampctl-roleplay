@@ -9,7 +9,7 @@
 
 main() {}
 
-// pisd
+/// pisd
 public OnGameModeInit()
 {
     return 1;
